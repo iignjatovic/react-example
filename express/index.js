@@ -26,6 +26,9 @@ app.use('/', function(req, res) {
   }, {
     title: 'Node.js Patterns',
     read: false
+  },{
+      title: 'Proba bla bla',
+      read: true
   }];
 
   res.setHeader('Content-Type', 'text/html');
