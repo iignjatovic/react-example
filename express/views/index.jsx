@@ -33,6 +33,7 @@ var BookForm = React.createClass({
       read: false
     });
   },
+    
   render: function() {
     return (
       <form onSubmit={this.addBook}>
